@@ -20,30 +20,6 @@ export const links = [
   },
 ] as const
 
-//components/Skill.tsx
-export const skillData = [
-  {
-    title: "Design",
-    paragraphe: ["Figma", "Tailwind CSS"],
-    svg: ["figma.svg", "tailwind.svg"],
-  },
-  {
-    title: "Front-end",
-    paragraphe: ["TypeScript", "Next JS"],
-    svg: ["typescript.svg", "next-js.svg"],
-  },
-  {
-    title: "Back-end",
-    paragraphe: ["Symfony", "MySQL"],
-    svg: ["symfony.svg", "mysql.svg"],
-  },
-  {
-    title: "Autres",
-    paragraphe: "Git & GitHub",
-    svg: "github.svg",
-  },
-] as const
-
 //components/Project.tsx
 export const projectData = [
   {

@@ -1,6 +1,6 @@
-import { Skill } from "@/src/skills/Skill"
 import { Projects } from "@/components/Projects"
 import { Heroe } from "@/components/Heroe"
+import { Skill } from "@/components/Skill"
 
 export default function Home() {
   return (

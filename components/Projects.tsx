@@ -61,7 +61,7 @@ export const Projects = () => {
                       <TooltipProvider>
                         <Tooltip>
                           <TooltipTrigger asChild>
-                            <Button className='ml-4 sm:mt-8 mt-16 text-accent bg-secondary hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
+                            <Button className='ml-4 sm:mt-8 mt-12 text-accent bg-secondary hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
                               Consulter
                             </Button>
                           </TooltipTrigger>
