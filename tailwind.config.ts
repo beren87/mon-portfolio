@@ -27,11 +27,11 @@ const config = {
         svg: "#d9d9d9",
         primary: {
           DEFAULT: "#d9d9d9",
-          foreground: "hsl(var(--primary-foreground))",
+          foreground: "#BCBCBC",
         },
         secondary: {
           DEFAULT: "#e2ddfe",
-          foreground: "hsl(var(--secondary-foreground))",
+          foreground: "#B7AFE9",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",

@@ -9,9 +9,7 @@ export const Skill = () => {
     >
       <div className='flex flex-row container gap-16 pt-24 sm:pt-10 md:pt-24'>
         <div>
-          <h1 className='font-bold text-lg sm:text-3xl text-center'>
-            Mes compétences
-          </h1>
+          <h1 className='font-bold text-lg sm:text-3xl'>Mes compétences</h1>
         </div>
       </div>
 
