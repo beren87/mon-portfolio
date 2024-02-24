@@ -21,7 +21,7 @@ export const Projects = () => {
   return (
     <section
       id='projets'
-      className='scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pt-9 pb-20 sm:pt-4'
+      className='scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pt-20 pb-72 sm:pb-20 sm:pt-4'
     >
       <div className='flex flex-row container gap-16 pt-24 sm:pt-10 md:pt-24'>
         <div>

@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang='fr' className='!scroll-smooth'>
       <body
         className={`${inter.className}
-      bg-background text-primary h-[5000px]`}
+      bg-background text-primary h-auto`}
       >
         <ThemeProvider
           attribute='class'
