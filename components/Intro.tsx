@@ -1,10 +1,9 @@
 "use client"
-import React, { useEffect } from "react"
+import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { Download, Github, Linkedin, Mail, ScrollText } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useInView } from "react-intersection-observer"
 
 export const Intro = () => {
   return (

@@ -10,7 +10,7 @@ export const About = () => {
       id='profil'
       className='container gap-16 pt-8 sm:pt-4 scroll-m-1 sm:scroll-m-24 md:scroll-m-1'
     >
-      <div>
+      <div className='pt-3 sm:pt-8'>
         <h1 className='font-bold text-lg sm:text-3xl'>À propos de moi</h1>
       </div>
       <div className='flex flex-row py-4 sm:py-10'>
