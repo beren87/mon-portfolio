@@ -1,12 +1,11 @@
 "use client"
-import { useInView } from "react-intersection-observer"
 import React, { useEffect } from "react"
 
 export const Skill = () => {
   return (
     <section
       id='competences'
-      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pb-20 pt-9 sm:pt-4'
+      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pb-20 pt-32 sm:pt-24'
     >
       <div className='flex flex-row'>
         <h1 className='font-bold text-lg sm:text-3xl'>Mes compétences</h1>
@@ -76,7 +75,7 @@ export const Skill = () => {
         </div>
       </div>
       <div className='flex justify-center items-center'>
-        <div className='border bg-primary h-px w-4/5'></div>
+        <div className='border bg-primary w-full sm:w-full'></div>
       </div>
 
       <div className='flex flex-row gap-16 py-4 sm:py-10'>
@@ -150,7 +149,7 @@ export const Skill = () => {
         </div>
       </div>
       <div className='flex justify-center items-center'>
-        <div className='border bg-primary h-px w-4/5'></div>
+        <div className='border bg-primary w-full sm:w-full'></div>
       </div>
       <div className='flex flex-row gap-16 py-4 sm:py-10'>
         <div>

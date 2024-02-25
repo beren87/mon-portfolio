@@ -9,7 +9,7 @@ export const Contact = () => {
   return (
     <section
       id='contact'
-      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pt-20 pb-72 sm:pb-20 sm:pt-4'
+      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 pt-32 pb-72 sm:pb-20'
     >
       <div className=' pt-2 sm:pt-10 md:pt-24'>
         <div>

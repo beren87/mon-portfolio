@@ -25,6 +25,7 @@ const config = {
         background: "#14121f",
         foreground: "hsl(var(--foreground))",
         svg: "#d9d9d9",
+        svgdark: "#14121f",
         primary: {
           DEFAULT: "#d9d9d9",
           foreground: "#BCBCBC",

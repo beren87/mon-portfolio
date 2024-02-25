@@ -14,7 +14,7 @@ export const About = () => {
         <h1 className='font-bold text-lg sm:text-3xl'>À propos de moi</h1>
       </div>
       <div className='flex flex-row py-4 sm:py-10'>
-        <div className='sm:pb-48'>
+        <div className='sm:pb-16'>
           <p className='font-normal text-sm sm:text-base pb-3'>
             J'ai {age} ans, je réside en Bretagne dans les côtes-d'Armor.
           </p>
