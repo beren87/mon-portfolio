@@ -48,12 +48,21 @@ export const Intro = () => {
         </div>
         <div className='flex gap-2 justify-center items-center'>
           <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto bg-secondary hover:bg-secondary-foreground text-accent'>
-            <ScrollText className='mr-2 h-4 w-4' /> Mon CV{" "}
-            <Download className='ml-2 h-4 w-4' />
+            <a
+              href='/CV-Berenger-fgs-2024.pdf'
+              download
+              className='flex items-center'
+            >
+              <ScrollText className='mr-2 h-4 w-4' /> Mon CV{" "}
+              <Download className='ml-2 h-4 w-4' />
+            </a>
           </Button>
 
           <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto bg-secondary hover:bg-secondary-foreground text-accent'>
-            <Link href='#contact' className='flex items-center'>
+            <Link
+              href='mailto:berenger.fgs@gmail.com'
+              className='flex items-center'
+            >
               <Mail className='mr-2 h-4 w-4' />
               Me contacter
             </Link>
