@@ -12,9 +12,9 @@ const noto_sans = Noto_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Bérenger | Portfolio",
+  title: "Bérenger - Développeur Web Junior | Portfolio",
   description:
-    "Développeur web fullstack, je suis spécialisé dans le développement d'applications web et mobiles.",
+    "Portfolio de Bérenger FERGUENIS. Développeur Web Junior passionné, créatif, constamment avide de nouvelles compétences et de découvertes technologiques.",
 }
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang='fr' className='!scroll-smooth'>
       <body
         className={`${noto_sans.className}
-       dark:bg-accent dark:text-primary bg-lightAccent text-lightPrimary h-auto`}
+       bg-accent text-primary h-auto`}
       >
         <ThemeProvider
           attribute='class'

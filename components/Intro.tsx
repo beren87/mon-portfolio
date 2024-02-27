@@ -20,7 +20,7 @@ export const Intro = () => {
         />
 
         <h1 className='text-3xl font-bold py-3'>Bérenger Ferguenis</h1>
-        <h2 className='pb-3 italic text-lg'>Développeur web</h2>
+        <h2 className='pb-3 italic text-lg'>Développeur Web Junior</h2>
         <h3 className='pb-3'>
           Statut :{" "}
           <span className='text-popover font-semibold'>Disponible</span>

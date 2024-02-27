@@ -27,12 +27,6 @@ const config = {
         svg: "0BD8B6",
         svgdark: "#14121f",
         svgbutton: "#0BD8B6",
-        // light mode
-        lightAccent: "#EEEEF0", // background
-        lightPrimary: "#111110", // h1 + h2 + paragraph + navbar
-        lightSecondary: "#0D2D2A", // border button + text button + svg button
-        lightForeground: "#B8EAE0", // hover button + hover text navbar + separator
-        lightPopover: "#3E7949", // disponible
         primary: {
           DEFAULT: "#EEEEF0", // h1 + h2 + paragraph + navbar
           foreground: "hsl(var(--primary-foreground))",
