@@ -33,11 +33,11 @@ export const Projects = () => {
               <AccordionTrigger>{project.title}</AccordionTrigger>
               <AccordionContent>
                 <div>
-                  <p className='dark:text-primary text-xs sm:text-xl'>
+                  <p className='text-primary text-xs sm:text-xl'>
                     {project.description}
                   </p>
 
-                  <Separator className='my-4 dark:bg-accent' />
+                  <Separator className='my-4 bg-accent' />
                   <div className='flex flex-wrap sm:flex-nowrap h-5 items-center space-x-4 text-sm'>
                     {project.separator.map((item, idx) => (
                       <React.Fragment key={idx}>
@@ -50,7 +50,7 @@ export const Projects = () => {
                         {idx < project.separator.length - 1 && (
                           <Separator
                             key={`separator-${idx}`}
-                            className='dark:bg-primary'
+                            className='bg-primary'
                             orientation='vertical'
                           />
                         )}
@@ -63,12 +63,12 @@ export const Projects = () => {
                     <TooltipProvider>
                       <Tooltip>
                         <TooltipTrigger asChild>
-                          <Button className='ml-4 sm:mt-8 mt-12 dark:text-secondary dark:border-secondary border-2 dark:bg-accent dark:hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
+                          <Button className='ml-4 sm:mt-8 mt-12 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
                             Consulter
                           </Button>
                         </TooltipTrigger>
                         <TooltipContent>
-                          <p className='dark:text-primary '>{project.site}</p>
+                          <p className='text-primary '>{project.site}</p>
                         </TooltipContent>
                       </Tooltip>
                     </TooltipProvider>

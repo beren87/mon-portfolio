@@ -13,7 +13,7 @@ export const Skill = () => {
 
       <div className='flex flex-row gap-16 py-3 sm:py-10'>
         <div>
-          <h2 className='font-bold dark:text-primary text-lightPrimary text-sm sm:text-base pb-3 underline underline-offset-2'>
+          <h2 className='font-bold text-primary text-sm sm:text-base pb-3 underline underline-offset-2'>
             Design
           </h2>
           <div className='b-2 flex items-center'>
@@ -75,13 +75,13 @@ export const Skill = () => {
         </div>
       </div>
       <div className='flex justify-center items-center'>
-        <div className='border dark:bg-primary w-full sm:w-full'></div>
+        <div className='border bg-primary w-full sm:w-full'></div>
       </div>
 
       <div className='flex flex-row gap-16 py-4 sm:py-10'>
         <div className='flex-grow'>
           <div>
-            <h2 className='font-bold dark:text-primary -h2 text-sm sm:text-base pb-3 underline underline-offset-2'>
+            <h2 className='font-bold text-primary -h2 text-sm sm:text-base pb-3 underline underline-offset-2'>
               Front-end
             </h2>
             <div className='b-2 flex items-center pb-1'>
@@ -113,7 +113,7 @@ export const Skill = () => {
         </div>
 
         <div className='flex-grow'>
-          <h2 className='font-bold dark:text-primary text-sm sm:text-base pb-3 underline underline-offset-2'>
+          <h2 className='font-bold text-primary text-sm sm:text-base pb-3 underline underline-offset-2'>
             Back-end
           </h2>
           <div className='b-2 flex items-center pb-1'>
@@ -149,11 +149,11 @@ export const Skill = () => {
         </div>
       </div>
       <div className='flex justify-center items-center'>
-        <div className='border dark:bg-primary w-full sm:w-full'></div>
+        <div className='border bg-primary w-full sm:w-full'></div>
       </div>
       <div className='flex flex-row gap-16 py-4 sm:py-10'>
         <div>
-          <h2 className='font-bold dark:text-primary -h2 text-sm sm:text-base pb-3 underline underline-offset-2'>
+          <h2 className='font-bold text-primary -h2 text-sm sm:text-base pb-3 underline underline-offset-2'>
             Autres
           </h2>
           <div className='b-2 flex items-center'>

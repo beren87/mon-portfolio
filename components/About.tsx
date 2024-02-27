@@ -11,7 +11,7 @@ export const About = () => {
       className='container gap-16 pt-8 sm:pt-4 scroll-m-1 sm:scroll-m-24 md:scroll-m-1'
     >
       <div className='pt-3 sm:pt-8'>
-        <h1 className='font-bold text-lg sm:text-3xl dark:text-primary'>
+        <h1 className='font-bold text-lg sm:text-3xl text-primary'>
           À propos de moi
         </h1>
       </div>
