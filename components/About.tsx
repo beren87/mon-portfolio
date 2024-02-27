@@ -18,7 +18,8 @@ export const About = () => {
       <div className='flex flex-row py-4 sm:py-10'>
         <div className='sm:pb-16'>
           <p className='font-normal text-sm sm:text-base pb-3 '>
-            J'ai {age} ans, je réside en Bretagne dans les côtes-d'Armor.
+            J&apos;ai {age} ans, je réside en Bretagne dans les
+            côtes-d&apos;Armor.
           </p>
           <p className='font-normal text-sm sm:text-base pb-3'>
             Anciennement adjoint administratif, je me suis réorienté

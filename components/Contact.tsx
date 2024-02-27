@@ -17,7 +17,7 @@ export const Contact = () => {
         </div>
         <div className=' pt-8 sm:pt-4 pb-4 text-sm sm:text-lg'>
           <p className='text-center sm:text-center pb-3'>
-            N'hésitez pas à me contacter directement par e-mail à{" "}
+            N&apos;hésitez pas à me contacter directement par e-mail à{" "}
           </p>
           <div className='text-center sm:text-center pb-3'>
             <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto bg-accent border-secondary border-2 hover:bg-secondary-foreground text-accent'>
@@ -32,7 +32,7 @@ export const Contact = () => {
           </div>
 
           <p className='text-center sm:text-center'>
-            ou via les réseaux sociaux.
+            ou via mon profil Github et ma page LinkedIn.
           </p>
         </div>
         <div className='flex gap-2 pb-2 justify-center'>
