@@ -15,6 +15,12 @@ export const metadata: Metadata = {
   title: "Bérenger - Développeur Web Junior | Portfolio",
   description:
     "Portfolio de Bérenger FERGUENIS. Développeur Web Junior passionné, créatif, constamment avide de nouvelles compétences et de découvertes technologiques.",
+  icons: {
+    icon: ["/favicon.ico?v=1"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
+  manifest: "/site.webmanifest",
 }
 
 export default function RootLayout({
