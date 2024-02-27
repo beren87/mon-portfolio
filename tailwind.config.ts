@@ -22,17 +22,24 @@ const config = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#14121f",
+        background: "#111110",
         foreground: "hsl(var(--foreground))",
-        svg: "#d9d9d9",
+        svg: "0BD8B6",
         svgdark: "#14121f",
+        svgbutton: "#0BD8B6",
+        // light mode
+        lightAccent: "#EEEEF0", // background
+        lightPrimary: "#111110", // h1 + h2 + paragraph + navbar
+        lightSecondary: "#0D2D2A", // border button + text button + svg button
+        lightForeground: "#B8EAE0", // hover button + hover text navbar + separator
+        lightPopover: "#3E7949", // disponible
         primary: {
-          DEFAULT: "#d9d9d9",
-          foreground: "#BCBCBC",
+          DEFAULT: "#EEEEF0", // h1 + h2 + paragraph + navbar
+          foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "#e2ddfe",
-          foreground: "#B7AFE9",
+          DEFAULT: "#0BD8B6", // border button + text button + svg button
+          foreground: "#145750", // hover button + hover text navbar + separator
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -43,11 +50,11 @@ const config = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "#14121f",
+          DEFAULT: "#111110", // background
           foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
-          DEFAULT: "#71D083",
+          DEFAULT: "#2CFF0A", // disponible
           foreground: "hsl(var(--popover-foreground))",
         },
         card: {

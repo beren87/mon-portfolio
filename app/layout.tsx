@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang='fr' className='!scroll-smooth'>
       <body
         className={`${inter.className}
-      bg-background text-primary h-auto`}
+       dark:bg-accent dark:text-primary bg-lightAccent text-lightPrimary h-auto`}
       >
         <ThemeProvider
           attribute='class'
@@ -32,7 +32,7 @@ export default function RootLayout({
         >
           <div className='flex flex-col h-full sm:mt-2 mt-2 mx-4 sm:m-auto'>
             <Header />
-            <div className='py-12 w-full'>
+            <div className='pt-12 pb-2 w-full'>
               {children}
               <Footer />
             </div>
