@@ -7,7 +7,7 @@ export const links = [
     hash: "#accueil",
   },
   {
-    name: "Competences",
+    name: "Compétences",
     hash: "#competences",
   },
   {
@@ -25,7 +25,7 @@ export const projectData = [
   {
     title: "Quai Antique",
     description:
-      "Quai Antique est une site vitrine pour un restaurant gastronomique savoyard. C'est un projet réalisé pour une évaluation de fin de formation DWWM.",
+      "Quai Antique est un site vitrine pour un restaurant gastronomique Savoyard. C'est un projet que j'ai réalisé pour une évaluation de fin de formation DWWM.",
     separator: ["Symfony", "MySQL", "Bootstrap", "Sass", "Heroku"],
     svg: [
       "symfony.svg",
@@ -161,7 +161,7 @@ export const projectData = [
   {
     title: "Portfolio",
     description:
-      "Mon portfolio est une vitrine de mes compétences et de mes réalisations en tant que développeur web.",
+      "Mon portfolio est une vitrine de mes compétences et de mes réalisations en tant que Développeur Web junior.",
     separator: ["Next JS", "Tailwind CSS", "TypeScript", "Shadcn/UI", "Lucide"],
     svg: [
       "next-js.svg",
@@ -170,7 +170,7 @@ export const projectData = [
       "shadcn-ui.svg",
       "lucide.svg",
     ],
-    site: "Vous y êtes !",
+    site: "https://www.berenger-fgs.fr/",
     svgdata: [
       <svg
         key={1}
