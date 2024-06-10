@@ -23,7 +23,16 @@ export const Intro = () => {
         <h2 className='pb-3 italic text-lg'>Développeur Web Junior</h2>
         <h3 className='pb-3'>
           Statut :{" "}
-          <span className='text-popover font-semibold'>Disponible</span>
+          <span className='text-yellow-200 font-semibold'>
+            En immersion du 17/06 au 28/06 2024 chez :
+            <Link
+              className='flex flex-row justify-center'
+              href='https://g5-digital.com/'
+              target='_blank'
+            >
+              G5 Digital
+            </Link>
+          </span>
         </h3>
         <div className='flex gap-2 pb-2 justify-center'>
           <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>

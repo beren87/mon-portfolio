@@ -1,4 +1,5 @@
 import { Projects } from "@/components/Projects"
+import { ProjectsTreeD } from "@/components/ProjectsTreeD"
 import { About } from "@/components/About"
 import { Skill } from "@/components/Skill"
 import { Intro } from "@/components/Intro"
@@ -14,6 +15,8 @@ export default function Home() {
       <Skill />
       <SectionDivider />
       <Projects />
+      <SectionDivider />
+      <ProjectsTreeD />
       <SectionDivider />
       <Contact />
       <SectionDivider />
