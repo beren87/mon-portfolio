@@ -85,7 +85,7 @@ export const Intro = () => {
         <div className='flex gap-2 justify-center items-center'>
           <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>
             <a
-              href='/CV-FERGUENIS-BERENGER.pdf'
+              href='/CV- alternance -FERGUENIS-BERENGER.pdf'
               download
               className='flex items-center'
             >

@@ -104,12 +104,32 @@ export const ProjectsTreeD = () => {
                           <Tooltip>
                             <TooltipTrigger asChild>
                               <Button className='ml-4 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
-                                Autre lien
+                                Lien Youtube
                               </Button>
                             </TooltipTrigger>
                             <TooltipContent>
                               <p className='text-primary '>
                                 {projectDataTreeD.linkyoutube}
+                              </p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </Link>
+                    )}
+                  </div>
+                  <div className='pb-2'>
+                    {projectDataTreeD.linkweb && (
+                      <Link href={projectDataTreeD.linkweb} target='_blank'>
+                        <TooltipProvider>
+                          <Tooltip>
+                            <TooltipTrigger asChild>
+                              <Button className='ml-4 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
+                                Lien DeviantArt
+                              </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className='text-primary '>
+                                {projectDataTreeD.linkweb}
                               </p>
                             </TooltipContent>
                           </Tooltip>
