@@ -21,7 +21,17 @@ export const links = [
 ] as const
 
 //components/Project.tsx
-export const projectData = [
+type ProjectType = {
+  title: string
+  description: string
+  separator: string[]
+  svg: string[]
+  site?: string
+  projectfile?: string
+  svgdata: JSX.Element[]
+}
+
+export const projectData: ProjectType[] = [
   {
     title: "Quai Antique",
     description:
@@ -101,6 +111,7 @@ export const projectData = [
       </svg>,
     ],
     site: "https://quai-antique-chambery.herokuapp.com/",
+    projectfile: "/DOSSIER-PROJET-FINAL.pdf",
   },
   {
     title: "AFAV",

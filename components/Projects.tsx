@@ -16,6 +16,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { projectData } from "@/lib/data"
+import { Download, ScrollText } from "lucide-react"
 
 export const Projects = () => {
   return (
@@ -58,26 +59,72 @@ export const Projects = () => {
                     ))}
                   </div>
                 </div>
-                <div className='pb-2'>
-                  <Link href={project.site} target='_blank'>
-                    <TooltipProvider>
-                      <Tooltip>
-                        <TooltipTrigger asChild>
-                          <Button className='ml-4 sm:mt-8 mt-12 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
-                            Visiter le site
-                          </Button>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                          <p className='text-primary '>{project.site}</p>
-                        </TooltipContent>
-                      </Tooltip>
-                    </TooltipProvider>
-                  </Link>
+
+                <div className='flex flex-row items-center sm:mt-8 mt-12'>
+                  <div className='pb-2'>
+                    {project.site && (
+                      <Link href={project.site} target='_blank'>
+                        <TooltipProvider>
+                          <Tooltip>
+                            <TooltipTrigger asChild>
+                              <Button className='ml-4 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
+                                Visiter le site
+                              </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className='text-primary '>{project.site}</p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </Link>
+                    )}
+                  </div>
+                  <div className='pb-2'>
+                    {project.projectfile && (
+                      <Link href={project.projectfile} target='_blank'>
+                        <TooltipProvider>
+                          <Tooltip>
+                            <TooltipTrigger asChild>
+                              <Button className='ml-4 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
+                                Dossier Projet
+                              </Button>
+                            </TooltipTrigger>
+                            <TooltipContent>
+                              <p className='text-primary '>
+                                {project.projectfile}
+                              </p>
+                            </TooltipContent>
+                          </Tooltip>
+                        </TooltipProvider>
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
+      </div>
+      <div className='flex flex-row py-4 sm:py-10'>
+        <div className='sm:pb-16'>
+          {" "}
+          <p className='font-normal text-sm sm:text-base pb-3'>
+            Pour me permettre d'atteindre un titre DWWM RNCP de niveau 5,
+            J&apos;ai réalisé un dossier professionnel qui retrace mon parcours
+            et mes compétences acquises.
+          </p>
+          <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>
+            <a
+              href='/DOSIER-PROFESSIONNEL-FINAL.pdf'
+              download
+              className='flex items-center'
+            >
+              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{" "}
+              <span className='text-secondary'>Mon Dossier Professionnel </span>
+              <Download className='ml-2 h-4 w-4 text-secondary' />
+            </a>
+          </Button>
+        </div>
       </div>
     </section>
   )

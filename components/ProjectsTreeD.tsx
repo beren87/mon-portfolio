@@ -76,7 +76,7 @@ export const ProjectsTreeD = () => {
                   </div>
                 </div>
 
-                <div className='flex flex-row items-center  sm:mt-8 mt-12'>
+                <div className='flex flex-row items-center sm:mt-8 mt-12'>
                   <div className='pb-2'>
                     {projectDataTreeD.site && (
                       <Link href={projectDataTreeD.site} target='_blank'>
