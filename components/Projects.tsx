@@ -109,7 +109,7 @@ export const Projects = () => {
         <div className='sm:pb-16'>
           {" "}
           <p className='font-normal text-sm sm:text-base pb-3'>
-            Pour me permettre d'atteindre un titre DWWM RNCP de niveau 5,
+            Pour me permettre d&apos;atteindre un titre DWWM RNCP de niveau 5,
             J&apos;ai réalisé un dossier professionnel qui retrace mon parcours
             et mes compétences acquises.
           </p>
