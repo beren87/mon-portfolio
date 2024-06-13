@@ -27,7 +27,6 @@ type ProjectType = {
   separator: string[]
   svg: string[]
   site?: string
-  projectfile?: string
   svgdata: JSX.Element[]
 }
 
@@ -111,7 +110,6 @@ export const projectData: ProjectType[] = [
       </svg>,
     ],
     site: "https://quai-antique-chambery.herokuapp.com/",
-    projectfile: "/DOSSIER-PROJET-FINAL.pdf",
   },
   {
     title: "AFAV",

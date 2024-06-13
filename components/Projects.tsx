@@ -79,26 +79,6 @@ export const Projects = () => {
                       </Link>
                     )}
                   </div>
-                  <div className='pb-2'>
-                    {project.projectfile && (
-                      <Link href={project.projectfile} target='_blank'>
-                        <TooltipProvider>
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Button className='ml-4 text-secondary border-secondary border-2 bg-accent hover:bg-secondary-foreground sm:text-base text-sm hover:scale-110 active:scale-105 transition'>
-                                Dossier Projet
-                              </Button>
-                            </TooltipTrigger>
-                            <TooltipContent>
-                              <p className='text-primary '>
-                                {project.projectfile}
-                              </p>
-                            </TooltipContent>
-                          </Tooltip>
-                        </TooltipProvider>
-                      </Link>
-                    )}
-                  </div>
                 </div>
               </AccordionContent>
             </AccordionItem>
@@ -108,19 +88,32 @@ export const Projects = () => {
       <div className='flex flex-row py-4 sm:py-10'>
         <div className='sm:pb-16'>
           {" "}
-          <p className='font-normal text-sm sm:text-base pb-3'>
+          <p className='font-normal text-sm sm:text-base pb-6'>
             Pour me permettre d&apos;atteindre un titre DWWM RNCP de niveau 5,
-            J&apos;ai réalisé un dossier professionnel qui retrace mon parcours
-            et mes compétences acquises.
+            J&apos;ai réalisé au cours de mon cursus un dossier professionnel
+            qui retrace mon parcours et mes compétences acquises ainsi
+            qu&apos;un dossier projet retraçant les étapes pour développer et
+            mettre en ligne une application.
           </p>
-          <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>
+          <Button className='mr-4 hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>
             <a
               href='/DOSIER-PROFESSIONNEL-FINAL.pdf'
-              download
+              target='_blank'
               className='flex items-center'
             >
               <ScrollText className='mr-2 h-4 w-4 text-secondary' />{" "}
               <span className='text-secondary'>Mon Dossier Professionnel </span>
+              <Download className='ml-2 h-4 w-4 text-secondary' />
+            </a>
+          </Button>
+          <Button className='hover:scale-110 active:scale-105 transition rounded-full font-normal h-7 w-auto border-secondary bg-accent hover:bg-secondary-foreground border-2'>
+            <a
+              href='/DOSSIER-PROJET-FINAL.pdf'
+              target='_blank'
+              className='flex items-center'
+            >
+              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{" "}
+              <span className='text-secondary'>Mon Dossier Projet </span>
               <Download className='ml-2 h-4 w-4 text-secondary' />
             </a>
           </Button>
