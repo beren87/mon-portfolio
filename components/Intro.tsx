@@ -24,7 +24,7 @@ export const Intro = () => {
         <h3 className='pb-3'>
           Statut :{' '}
           <span className='text-yellow-200 font-semibold'>
-            En formation professionnel du 01/07 au 29/08 2024 chez :
+            En formation professionnelle du 01/07 au 30/08 2024 chez :
             <Link
               className='flex flex-row justify-center'
               href='https://g5-digital.com/'
