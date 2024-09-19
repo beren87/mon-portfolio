@@ -80,12 +80,12 @@ export const Contact = () => {
         <h3 className='pb-3 text-center pt-6'>
           Statut :{' '}
           <span className='text-yellow-200 font-semibold'>
-            En formation professionnelle du 01/07 au 30/08 2024 chez :
+            En CDI depuis le 03/09/2024 chez :
             <Link
               className='flex flex-row justify-center'
               href='https://g5-digital.com/'
               target='_blank'>
-              G5 Digital
+              👉 G5 Digital 👈
             </Link>
           </span>
         </h3>

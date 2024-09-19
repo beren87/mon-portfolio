@@ -1,31 +1,32 @@
-"use client"
-import React from "react"
+'use client';
+import React from 'react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import { Separator } from "@/components/ui/separator"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import { TooltipProvider } from "@radix-ui/react-tooltip"
+} from '@/components/ui/accordion';
+import { Separator } from '@/components/ui/separator';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+import { TooltipProvider } from '@radix-ui/react-tooltip';
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/components/ui/tooltip"
-import { projectData } from "@/lib/data"
-import { Download, ScrollText } from "lucide-react"
+} from '@/components/ui/tooltip';
+import { projectData } from '@/lib/data';
+import { Download, ScrollText } from 'lucide-react';
 
 export const Projects = () => {
   return (
     <section
       id='projets'
-      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 sm:pb-32 pt-32 sm:pt-24 md:pt-24'
-    >
+      className='container scroll-m-1 sm:scroll-m-24 md:scroll-m-1 sm:pb-32 pt-32 sm:pt-24 md:pt-24'>
       <div>
-        <h1 className='font-bold text-lg sm:text-3xl'>Mes projets</h1>
+        <h1 className='font-bold text-lg sm:text-3xl'>
+          Mes projets Développeur Web
+        </h1>
       </div>
       <div className='flex flex-row'>
         <Accordion type='single' collapsible>
@@ -87,7 +88,7 @@ export const Projects = () => {
       </div>
       <div className='flex flex-row py-4 sm:py-10'>
         <div className='sm:pb-16'>
-          {" "}
+          {' '}
           <p className='font-normal text-sm sm:text-base pb-6'>
             Pour me permettre d&apos;atteindre un titre DWWM RNCP de niveau 5,
             J&apos;ai réalisé au cours de mon cursus un dossier professionnel
@@ -99,9 +100,8 @@ export const Projects = () => {
             <a
               href='/DOSIER-PROFESSIONNEL-FINAL.pdf'
               target='_blank'
-              className='flex items-center'
-            >
-              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{" "}
+              className='flex items-center'>
+              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{' '}
               <span className='text-secondary'>Mon Dossier Professionnel </span>
               <Download className='ml-2 h-4 w-4 text-secondary' />
             </a>
@@ -110,9 +110,8 @@ export const Projects = () => {
             <a
               href='/DOSSIER-PROJET-FINAL.pdf'
               target='_blank'
-              className='flex items-center'
-            >
-              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{" "}
+              className='flex items-center'>
+              <ScrollText className='mr-2 h-4 w-4 text-secondary' />{' '}
               <span className='text-secondary'>Mon Dossier Projet </span>
               <Download className='ml-2 h-4 w-4 text-secondary' />
             </a>
@@ -120,5 +119,5 @@ export const Projects = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
